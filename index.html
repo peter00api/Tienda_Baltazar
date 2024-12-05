@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Tienda Baltazar | Ecommerce website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class ="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                         <li><a href="products.html">Productos</a></li>
+                         <li><a href="">Acerca de:</a></li>
+                         <li><a href="">Contacto</a></li>
+                         <li><a href="account.html">Cuenta</a></li>
+
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Trabajo <br>Nuevo Estilo!</h1>
+                    <p>El éxito no siempre se trata de grandeza. Se trata de coherencia. El trabajo duro y constante da como resultado el éxito. La grandeza vendrá.</p>
+                    <a href="products.html" class="btn">Explora Ahora &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <!------------------------------ featured categories------------------------------>
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3 (2).jpg">
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <!------------------------------ featured Products------------------------------>
+        <div class="small-container">
+            <h2 class="title" >Productos Destacados</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-11.jpg"></a>
+                        <a href="products-details.html"><h4>Zapatos Deportivos</h4></a>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-2.jpg"></a>
+                        <h4>Zapatos para Correr</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$35.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-3.jpg"></a>
+                        <h4>Zapatos con Cierre</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$15.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-10.jpg"></a>
+                        <h4>Zapatos Planos</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$48.00</p>
+                    </div>  
+                </div>
+            
+            
+             <h2 class="title" >Ultimos Productos</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-5.jpg"></a>
+                        <h4>Azadas Planos</h4>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-3.jpg"></a>
+                        <h4>Zapatos Negros</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$21.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-7.jpg"></a>
+                        <h4>Calcetines de Algodon</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$09.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-2.jpg"></a>
+                        <h4>Zapatos para Correr</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$35.00</p>
+                    </div>  
+                </div>
+            <!--new row for the latest product-->
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-7.jpg"></a>
+                        <h4>Calcetines de Algodon</h4>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$10.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-10.jpg"></a>
+                        <h4>Zapatos Planos</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$48.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-11.jpg"></a>
+                        <h4>Mocacines Hombre</h4>
+                        <div class="rating">
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$15.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-12.jpg"></a>
+                        <h4>Zapatos Blancos</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$21.00</p>
+                    </div>  
+                </div>
+            </div>
+        
+        <!--------------------------`   offer   --------------------------------->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/image1.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Disponible Esclusivamente</p>
+                        <h1>Zapatos Deportivos</h1>
+                        <small> Compre las últimas colecciones de calzado deportivo online en Redstore a los mejores precios de las mejores marcas como Adidas, Nike, Puma, Asics y Sparx cuando lo desee a los mejores precios. </small><br>
+                        <a href="products.html" class="btn">Comprar Ahora &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!------------------------------Testimonial---------------------------------->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left" ></i>
+                        <p>Este es mi segundo par de estos. Mi primer par duró entre 1 y 2 años y todavía funcionan, pero han empezado a desgastarse. ¡La función de deslizamiento es muy agradable y cómoda! Estos zapatos son los mejores. Además, no cuestan mucho, lo que los convierte en una excelente oferta por su dinero. Realmente me gusta el color completamente negro y los cordones tienen solo un toque de gris para darles un poco de contraste. Uso 13 en Adidas y 12 en otros zapatos, por lo que estos tienden a ser un poco más grandes que otras marcas. </p>
+                        <div class="rating"> 
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <img src="images/user-1.png">
+                        <h3>Ibethe</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left" ></i>
+                        <p>Este es mi segundo par de estos. Mi primer par duró entre 1 y 2 años y todavía funcionan, pero han empezado a desgastarse. ¡La función de deslizamiento es muy agradable y cómoda! Estos zapatos son los mejores. Además, no cuestan mucho, lo que los convierte en una excelente oferta por su dinero. Realmente me gusta el color completamente negro y los cordones tienen solo un toque de gris para darles un poco de contraste. Uso 13 en Adidas y 12 en otros zapatos, por lo que estos tienden a ser un poco más grandes que otras marcas.</p>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <img src="images/user-2.png">
+                        <h3>Alex</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left" ></i>
+                        <p>Este es mi segundo par de estos. Mi primer par duró entre 1 y 2 años y todavía funcionan, pero han empezado a desgastarse. ¡La función de deslizamiento es muy agradable y cómoda! Estos zapatos son los mejores. Además, no cuestan mucho, lo que los convierte en una excelente oferta por su dinero. Realmente me gusta el color completamente negro y los cordones tienen solo un toque de gris para darles un poco de contraste. Uso 13 en Adidas y 12 en otros zapatos, por lo que estos tienden a ser un poco más grandes que otras marcas. </p>
+                        <div class="rating"> 
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <img src="images/user-3.png">
+                        <h3>Maria Chambi</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!----------------------------------Brands------------------------------------>
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-godrej.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-oppo.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-coca-cola.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-paypal.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-philips.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!----------------------------------footer------------------------------------->
+        <div class ="footer">
+        <div class="container">
+            
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Descarga nuestra aplicación</h3>
+                    <p>Descargar App para teléfono móvil.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Nuestro propósito es hacer que el placer y los beneficios del deporte sean accesibles para muchos de manera sostenible.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Enlaces</h3>
+                   <ul>
+                       <li>Cupones</li>
+                       <li>Blog</li>
+                       <li>Devoluciones</li>
+                       <li>Afiliado</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Siganos</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>Twitter</li>
+                       <li>Instagram</li>
+                       <li>Youtube</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <hr><!--horizontal line-->
+            <p class="copyright">Copyright 2024 - Johana SEDCAM</p>
+            
+        </div>
+    </div>
+        
+        
+        <!-----------------------------------js for toggle menu----------------------------------------------->
+        <script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+    </body>
+</html>
